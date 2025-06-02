@@ -1,0 +1,36 @@
+<!-- AJAX (Asynchronous JavaScript and XML) is a technique that allows you to send and receive data from a web server without refreshing the entire page. This makes web pages more dynamic and interactive by enabling background data loading and updates without interrupting the user’s experience.
+
+APIs (Application Programming Interfaces) are sets of protocols and tools for building software applications. Web APIs are accessible over the internet and allow different software systems to communicate with each other, similar to how methods and interfaces in core Java allow different components to interact.
+
+AJAX:
+
+AJAX allows you to request data from a server and update parts of a web page without requiring a full reload. This is like making asynchronous requests to a server in core Java using HttpURLConnection or similar classes for non-blocking operations. 
+
+
+Example Program:
+
+Sending an AJAX request to a web server: -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX</title>
+    <script>
+        function loadData() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("data").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "data.txt", true);
+            xhttp.send();
+        }
+    </script>
+</head>
+<body>
+    <button onclick="loadData()">Load Data</button>
+    <div id="data"></div>
+</body>
+</html>

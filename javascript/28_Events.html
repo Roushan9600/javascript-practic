@@ -1,0 +1,46 @@
+<!-- Events are user interactions or system notifications that occur on a web page, such as clicks, key presses, or page loading. JavaScript can listen to and respond to these events using event handlers. -->
+
+
+<!-- Example Programs:
+
+Responding to a click event: -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Events</title>
+    <script>
+        function handleClick() {
+            alert("Button clicked!");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="handleClick()">Click me</button>
+    </body>
+</html>
+Responding to a key press event:
+
+
+<!-- #################################### -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Events</title>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                alert("Enter key pressed!");
+            }
+        });
+    </script>
+</head>
+<body>
+    <p>Press the Enter key.</p>
+</body>
+</html>
+
+
+<!-- To run these programs in Visual Studio Code, save them with a .html extension and open them in a web browser. Alternatively, you can install the Live Server extension in Visual Studio Code and run them using the Live Server feature. -->

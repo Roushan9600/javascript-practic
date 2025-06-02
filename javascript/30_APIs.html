@@ -1,0 +1,36 @@
+<!-- APIs:
+APIs provide a way to interact with external services and data. In web development, APIs are accessed over HTTP to fetch or send data. This is similar to using APIs in core Java, such as making RESTful service calls using libraries like HttpClient or RestTemplate.
+Example Program:- Retrieving data from a Web API: -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>APIs</title>
+    <script>
+        fetch('https://jsonplaceholder.typicode.com/posts/1')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('title').innerHTML = data.title;
+                document.getElementById('body').innerHTML = data.body;
+            });
+    </script>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <p id="body"></p>
+</body>
+</html>
+
+
+<!-- Text Diagram:
+
+Web Browser           Web Server
+       |                   |
+       |  AJAX Request     |
+       |------------------ |
+       |                   |
+       |  AJAX Response    |
+       |------------------ |
+       |                   |
+To run these programs in Visual Studio Code, save them with a .html extension and open them in a web browser. Alternatively, you can use Node.js with the http module to create a local web server and serve the HTML files. --> 

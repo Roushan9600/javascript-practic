@@ -1,0 +1,30 @@
+// DOM (Document Object Model) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. JavaScript can access and modify the DOM of a page using the Document object.
+
+// DOM Manipulation:
+
+// DOM manipulation involves creating, modifying, and deleting HTML elements on a web page dynamically using JavaScript. This is similar to working with collections and objects in core Java.
+
+
+// Example Program:
+
+// Adding a new element to the DOM:
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulation</title>
+   <script>
+        function addElement() {
+            var newDiv = document.createElement("div");
+            var newContent = document.createTextNode("Hello, World!");
+            newDiv.appendChild(newContent);
+            document.body.appendChild(newDiv);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="addElement()">Add Element</button>
+</body>
+</html>
