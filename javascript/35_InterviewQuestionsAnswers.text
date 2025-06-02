@@ -1,0 +1,105 @@
+Question 1 – What is JavaScript?
+
+Answer – JavaScript is a programming language that is commonly used to create interactive effects within web browsers. It is a high-level, dynamic, and interpreted language that is designed to be used with HTML and CSS to create web pages and web applications.
+
+Question 2 – What are the data types in JavaScript?
+
+Answer – There are seven data types in JavaScript: undefined, null, boolean, number, string, symbol, and object.
+
+Question 3 – What is the difference between null and undefined in JavaScript?
+
+Answer – In JavaScript, null represents an intentional absence of any object value, while undefined represents a variable that has not been initialized or a missing property of an object.
+
+
+Question 4 – What is the difference between let and var in JavaScript?
+
+Answer – The main difference between let and var in JavaScript is that let is block-scoped, meaning it is only available within the block it is defined in, while var is function-scoped, meaning it is available throughout the entire function it is defined in.
+
+Question 5 – What is the difference between == and === in JavaScript?
+
+Answer – The == operator compares two values for equality, but performs type coercion if necessary, while the === operator compares two values for equality without performing any type coercion.
+
+
+Question 6 – What is the use of the typeof operator in JavaScript?
+
+Answer – The typeof operator in JavaScript is used to determine the data type of a value or variable.
+
+Question 7 – What is an event in JavaScript?
+
+Answer – An event in JavaScript is an action that occurs on a webpage, such as a button click or a form submission. Event handlers can be used to respond to these events and trigger specific actions.
+
+Question 8 – What is a closure in JavaScript?
+
+Answer – A closure in JavaScript is a function that has access to variables in its outer lexical environment, even after the outer function has returned.
+
+Question 9 – What is a callback function in JavaScript?
+
+
+Answer – A callback function in JavaScript is a function that is passed as an argument to another function and is executed inside that function.
+
+Question 10 – What is hoisting in JavaScript?
+
+Answer – Hoisting in JavaScript is a behavior where function and variable declarations are moved to the top of their respective scopes before code execution.
+
+Question 11 – What is the difference between a for loop and a forEach loop in JavaScript?
+
+Answer – A for loop is a traditional loop construct that is used for iterating over an array or a sequence of values, while a forEach loop is a method that is available on arrays and is used for iterating over each element of the array.
+
+
+Question 12 – What is the difference between synchronous and asynchronous programming in JavaScript?
+
+Answer – Synchronous programming in JavaScript is a programming model where each line of code is executed in order, while asynchronous programming in JavaScript is a programming model where code execution does not wait for a result, and the next line of code is executed immediately.
+
+Question 13 – What is the difference between call, apply, and bind methods in JavaScript?
+
+Answer – The call method is used to invoke a function with a specific this value and arguments, while the apply method is similar to call, but accepts an array of arguments instead of individual arguments. The bind method is used to create a new function with a specific this value.
+
+Question 14 – What is the difference between a regular function and an arrow function in JavaScript?
+
+Answer – An arrow function in JavaScript is a shorthand syntax for creating a function, while a regular function is created using the function keyword. Arrow functions do not have their own this value, while regular functions do.
+
+Question 15 – What is the purpose of the this keyword in JavaScript?
+
+Answer – The this keyword in JavaScript is used to refer to the current object or context, and its value depends on how the function is called. It is often used in object-oriented programming to access the properties and methods of an object.
+
+
+Question 16 – What are the different ways to declare a variable in JavaScript?
+
+Answer – There are three ways to declare a variable in JavaScript: using the var keyword, the let keyword, and the const keyword. The var keyword declares a variable with function scope, the let keyword declares a variable with block scope, and the const keyword declares a variable with block scope that cannot be reassigned.
+
+Question 17 – What is the difference between a class and an object in JavaScript?
+
+Answer – In JavaScript, a class is a blueprint for creating objects, while an object is an instance of a class. Classes are used to define the properties and methods of an object, while objects are used to represent specific instances of that class.
+
+Question 18 – What is the purpose of the new keyword in JavaScript?
+
+Answer – The new keyword in JavaScript is used to create an instance of a class or constructor function. When used with a constructor function, it creates a new object and sets the this keyword to that object.
+
+Question 19 – What is event bubbling in JavaScript?
+
+Answer – Event bubbling in JavaScript is a mechanism where an event that is triggered on a nested element is also triggered on its parent elements in the DOM hierarchy, all the way up to the document object.
+
+Question 20 – What is a promise in JavaScript?
+
+Answer – A promise in JavaScript is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value.
+
+Question 21 – What is the difference between local storage and session storage in JavaScript?
+
+
+Answer – Local storage in JavaScript stores data without an expiration date, while session storage stores data for a single session, which is lost when the user closes the browser or tab.
+
+Question 22 – What is the difference between map and filter methods in JavaScript?
+
+Answer – The map method in JavaScript creates a new array by applying a function to each element of an existing array, while the filter method creates a new array by selecting elements that meet a specific condition.
+
+Question 23 – What is the difference between the null and undefined values in JavaScript?
+
+Answer – In JavaScript, null is a value that represents the intentional absence of any object value, while undefined is a value that represents the absence of a value or the absence of an initialized variable.
+
+Question 24 – What is the difference between async and defer attributes on script tags in HTML?
+
+Answer – The async attribute on a script tag in HTML loads and executes the script asynchronously, without blocking the loading of the rest of the page, while the defer attribute loads the script asynchronously but defers its execution until the rest of the page has loaded.
+
+Question 25 – What is the purpose of the document object in JavaScript?
+
+Answer – The document object in JavaScript represents the HTML document currently loaded in the browser, and provides methods and properties for accessing and manipulating the elements and content of the document.
